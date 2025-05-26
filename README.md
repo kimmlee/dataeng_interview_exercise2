@@ -70,7 +70,7 @@ You must deploy two separate containers with the following configurations:
 
 - Use the `deploy.resources.reservations.devices` section in your Docker Compose file to specify GPU requirements:
 
-## Check the Success of Configuration and Deployment
+## Demonstrate the Success of Configuration and Deployment
 
 To ensure that your GPU configuration and container deployments are functioning correctly, you should be familiar with the necessary commands to:
 - Verify the availability of GPUs on the host VM and within each container
