@@ -72,7 +72,11 @@ You must deploy two separate containers with the following configurations:
 
 ## Check the Success of Configuration and Deployment
 
-To verify that your GPU configuration and container deployments are working correctly, you need to know the commands to check the GPUs available in the vm and each container, and to connect to the container shell.  
+To ensure that your GPU configuration and container deployments are functioning correctly, you should be familiar with the necessary commands to:
+- Verify the availability of GPUs on the host VM and within each container
+- Access the shell of each running container 
+
+You are also required to demonstrate that the LLMs deployed in each container are actively utilizing their assigned GPUs for inference and answer generation. 
 
 ## License 
 
