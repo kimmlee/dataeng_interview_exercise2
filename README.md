@@ -28,9 +28,6 @@ The target models for this task are:
 You are provided with a starting Docker Compose file:  
 `docker-compose-cpu.yml`
 
-You are provided with a starting Docker Compose file:  
-`docker-compose-cpu.yml`
-
 Your two main tasks are to:
 
 ### 1. Configure Docker Containers to Use GPUs
