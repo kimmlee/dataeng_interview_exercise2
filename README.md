@@ -31,14 +31,13 @@ You are provided with a starting Docker Compose file:
 Your two main tasks are to:
 
 ### 1. Configure Docker Containers to Use GPUs
+- Modify the provided Compose file to enable **GPU support**.
+- Create two isolated **Ollama containers**, each configured to run a different LLM.
+- Assign appropriate **GPU resources** and **ports** to each container.
+- Mount dedicated **Docker volumes** to persist model data separately.
 
-    - Modify the provided Compose file to enable **GPU support**.
-    - Create two isolated **Ollama containers**, each configured to run a different LLM.
-    - Assign appropriate **GPU resources** and **ports** to each container.
-    - Mount dedicated **Docker volumes** to persist model data separately.
-
-    Your final Compose file should be saved as: 
-    `docker-compose.yml`
+Your final Compose file should be saved as: 
+`docker-compose.yml`
 ### 2. Deploy and Run Each LLM in Its Own Container
 
 Each model should be deployed in its own environment, running simultaneously with GPU isolation and volume persistence.
