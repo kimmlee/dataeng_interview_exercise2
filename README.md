@@ -55,7 +55,6 @@ You must deploy two separate containers with the following configurations:
 - **Model to load**: `qwen2.5:3b`
 - **GPU allocation**: 1 × Tesla T4
 - **Host port**: `11434`
-- **Container port**: `11434`
 
 ### Container 2: `ollama_large`
 
@@ -64,7 +63,6 @@ You must deploy two separate containers with the following configurations:
 - **Model to load**: `gemma3:27b`
 - **GPU allocation**: 3 × Tesla T4
 - **Host port**: `21434`
-- **Container port**: `11434`
 
 ---
 
