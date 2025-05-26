@@ -71,7 +71,6 @@ You must deploy two separate containers with the following configurations:
 ## Technical Guidelines
 
 - Use the `deploy.resources.reservations.devices` section in your Docker Compose file to specify GPU requirements:
-  ```yaml
 
 ## License 
 
