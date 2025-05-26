@@ -1,6 +1,6 @@
 # Interview Question
 
-This repository is a **15-min** exercise for the Data Eng-Sandpit interview about LLM.
+This repository is a **15-20 minutes** exercise for the Data Eng-Sandpit interview about LLM.
 
 ## VM Details & Pre-Installed Tools
 
