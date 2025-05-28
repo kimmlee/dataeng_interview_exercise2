@@ -41,8 +41,11 @@ Your final Compose file should be saved as:
 
 
 **Checkpoint A**: Launch **two** isolated Ollama containers using CPU-only configuration. (You may skip this and proceed directly to GPU setup if confident.)
+
 **Checkpoint B**: Show the ability to configure the allocation of GPUs in each container appropriately.
+
 **Checkpoint C**: Demonstrate how to list available GPUs on the VM and within each container.
+
 **Checkpoint D**: Prove understanding of **Docker networking and port binding**, especially when running multiple containers from the same base image of Ollama.
 
 ### 2. Deploy and Run Each LLM in Its Own Container
@@ -50,6 +53,7 @@ Your final Compose file should be saved as:
 Each model should be deployed in its own environment, running simultaneously with GPU isolation and volume persistence.
 
 **Checkpoint E**: Access each container and deploy the specified LLM using Ollama.
+
 **Checkpoint F**: Demonstrate how to monitor **GPU and memory usage** while running inference to validate correct resource allocation.
 
 ---
