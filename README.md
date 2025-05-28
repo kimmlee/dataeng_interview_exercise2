@@ -51,7 +51,7 @@ You must deploy two separate containers with the following configurations:
 ### Container 1: `ollama_small`
 
 - **Container name**: `ollama_small`
-- **Docker volume**: `ollama_small_volume`, mounted to `/root/.ollama`
+- **Docker volume**: `ollama_small_volume`, mounted to `/root/.ollama_small`
 - **Model to load**: `qwen2.5:3b`
 - **GPU allocation**: 1 × Tesla T4
 - **Host port**: `11434`
@@ -59,7 +59,7 @@ You must deploy two separate containers with the following configurations:
 ### Container 2: `ollama_large`
 
 - **Container name**: `ollama_large`
-- **Docker volume**: `ollama_large_volume`, mounted to `/root/.ollama`
+- **Docker volume**: `ollama_large_volume`, mounted to `/root/.ollama_large`
 - **Model to load**: `gemma3:27b`
 - **GPU allocation**: 3 × Tesla T4
 - **Host port**: `21434`
