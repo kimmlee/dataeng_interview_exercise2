@@ -46,7 +46,13 @@ Each model should be deployed in its own environment, running simultaneously wit
 
 ## Configuration Requirements
 
-You must deploy two separate containers with the following configurations:
+You are required to deploy two separate Docker containers, each running an instance of Ollama configured with a different LLM model.
+
+**Regardless of machine portability**, your configuration **must** ensure that:
+- Each container is assigned **dedicated GPU resources** appropriate for the model it serves.
+- The entire GPU capacity of the VM (4 × Tesla T4) is **fully** utilised across both containers.
+- Each container has its own **dedicated volume** to prevent model/data overlap.
+- Containers are reachable via **distinct external ports**.
 
 ### Container 1: `ollama_small`
 
@@ -54,7 +60,6 @@ You must deploy two separate containers with the following configurations:
 - **Docker volume**: `ollama_small_volume`, mounted to `/root/.ollama_small`
 - **Model to load**: `qwen2.5:3b`
 - **GPU allocation**: 1 × Tesla T4
-- **Host port**: `11434`
 
 ### Container 2: `ollama_large`
 
@@ -62,7 +67,6 @@ You must deploy two separate containers with the following configurations:
 - **Docker volume**: `ollama_large_volume`, mounted to `/root/.ollama_large`
 - **Model to load**: `gemma3:27b`
 - **GPU allocation**: 3 × Tesla T4
-- **Host port**: `21434`
 
 ---
 
