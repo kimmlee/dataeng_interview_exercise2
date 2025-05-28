@@ -54,14 +54,16 @@ You are required to deploy two separate Docker containers, each running an insta
 - Each container has its own **dedicated volume** to prevent model/data overlap.
 - Containers are reachable via **distinct external ports**.
 
-### Container 1: `ollama_small`
+Below are the details of each container.
+
+#### Container 1: `ollama_small`
 
 - **Container name**: `ollama_small`
 - **Docker volume**: `ollama_small_volume`, mounted to `/root/.ollama_small`
 - **Model to load**: `qwen2.5:3b`
 - **GPU allocation**: 1 × Tesla T4
 
-### Container 2: `ollama_large`
+#### Container 2: `ollama_large`
 
 - **Container name**: `ollama_large`
 - **Docker volume**: `ollama_large_volume`, mounted to `/root/.ollama_large`
