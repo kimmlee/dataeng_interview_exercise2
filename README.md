@@ -59,14 +59,14 @@ Below are the details of each container.
 #### Container 1: `ollama_small`
 
 - **Container name**: `ollama_small`
-- **Docker volume**: `ollama_small_volume`, mounted to `/root/.ollama_small`
+- **Docker volume**: `ollama_small_volume`, mounted to `/root/.ollama`
 - **Model to load**: `qwen2.5:3b`
 - **GPU allocation**: 1 × Tesla T4
 
 #### Container 2: `ollama_large`
 
 - **Container name**: `ollama_large`
-- **Docker volume**: `ollama_large_volume`, mounted to `/root/.ollama_large`
+- **Docker volume**: `ollama_large_volume`, mounted to `/root/.ollama`
 - **Model to load**: `gemma3:27b`
 - **GPU allocation**: 3 × Tesla T4
 
