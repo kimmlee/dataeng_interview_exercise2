@@ -26,7 +26,7 @@ The target models for this task are:
 ## Your Task
 
 You are provided with a starting Docker Compose file:  
-`docker-compose-cpu.yml`
+`docker-compose.yml`, which by default is configured to use CPU only without taking advantage of the available GPUs on the VM. 
 
 Your two main tasks are to:
 
