@@ -25,11 +25,14 @@ The target models for this task are:
 
 ## Your Task
 
-You are provided with a starting Docker Compose file:  
+You are provided with a starting Docker Compose file (by cloning it from this got repository):  
 `docker-compose.yml`, which by default is configured to use CPU only without taking advantage of the available GPUs on the VM. 
 
 Your two main tasks are to:
 
+## Pre-Interview
+- Familiarise yourself with the project and `git clone` into a remote working directory
+  
 #### 1. Configure Docker Containers to Use GPUs
 - Modify the provided Compose file to enable **GPU support**.
 - Create two isolated **Ollama containers**, each configured to run a different LLM.
