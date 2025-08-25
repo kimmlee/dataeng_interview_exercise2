@@ -57,7 +57,7 @@ Each model should be deployed in its own environment, running simultaneously wit
 
 **Checkpoint E**: Access each container and deploy the specified LLM using Ollama.
 
-**Checkpoint F**: Demonstrate how to monitor **GPU and memory usage** while running inference to validate correct resource allocation.
+**Checkpoint F**: Demonstrate how to real-time monitor **GPU and memory usage** while running inference to validate correct resource allocation.
 
 ---
 
